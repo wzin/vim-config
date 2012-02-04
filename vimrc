@@ -10,3 +10,9 @@ set background=dark
 set tabstop=8
 set expandtab
 filetype indent on
+map T :TaskList<CR>
+set textwidth=79
+set autoindent
+set backspace=indent,eol,start
+map P :TlistToggle<CR>
+autocmd FileType python set omnifunc=pythoncomplete#Complete
